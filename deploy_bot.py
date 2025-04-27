@@ -1,4 +1,3 @@
-
 import os
 import sys
 import json
@@ -9,7 +8,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, ContextTypes, filters
 
 # === CONFIG
-MASTER_BOT_TOKEN = 'ISI_TOKEN_BOT_A'  # <-- ganti token master lu
+MASTER_BOT_TOKEN = '8119915270:AAGYc2V28Vmhi-kVIezgHjJpICnQnHAf-RM'  # <-- ganti token master lu
 ADMINS = {7316824198}  # <-- ganti user ID admin utama
 BOTS_FILE = 'bots.json'
 ADMINS_FILE = 'admins.json'
